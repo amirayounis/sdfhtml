@@ -1,0 +1,40 @@
+h1{
+    background-color: blue;
+    color: aliceblue;
+    width: 15%;
+    height: 10vh;
+    
+}
+#rel{
+    position: relative;
+    right: 0px;
+    top:100px;
+    left: 500px;
+    bottom: 0px;
+  
+}
+#fixed{
+    position: fixed;
+    left: 0px;
+    top: 0;
+    /* z-index:-1; */
+}
+#abs{
+    background-color: yellow;
+    height: 250px;
+    width: 30%;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+#abs h1{
+    width: 100px;
+    position: absolute;
+    right: 40%;
+    top: -20px;
+    margin: 0;
+    z-index:-1;
+
+}
+

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;     
+   }
+ div:not(.card){
+   background-color: beige;
+   width: 100px;
+   display: inline-block;
+   border: 5px solid black;
+ }
+
+
+ .card{
+  width: 50%;
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 10px 15px;
+  padding: 10px;
+ }
+
+ .card:hover{
+  background-color: black;
+  color: aqua;
+  opacity: 0.5;
+ }
+
+ .card button{
+  width: 80%;
+  margin-left: 10%;
+  height: 4vh;
+ }
+ /* .card button:hover{
+  background-color: aqua;
+ } */
+
+ .card:hover button{
+  background-color: aqua;
+ }
+
+ input:focus{
+  border: 1px solid red;
+ outline: none;
+ }
+ /* a:visited{
+  color: red;
+ }
+ a{
+  color: black;
+  text-decoration: none;
+ }
+ a:active{
+  color: yellow;
+ } */
+input[type="email"]::after{
+  content:"*";
+  color: red;
+  }
+h1::first-letter{
+  color: blue;
+  font-size: 3rem;
+}
+p::first-line{
+  color: brown;
+}
+
+

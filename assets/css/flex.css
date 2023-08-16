@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallary{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: wrap; */
+    gap:10px;
+   /* row-gap: 30px; */
+    justify-content: space-around;
+    height: 90vh;
+}
+img{
+    width: 100%;
+}
+.gallary div{
+    background-color: aqua;
+    width: 30%;
+    height: 50vh;
+    overflow: hidden;
+}
+.gallary div:hover{
+    align-self:center;
+}
+/* nav */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 10%; 
+}
+.logo img{
+    width: 40%;
+}
+
+#nav-links{
+    display: flex;
+    gap: 5%;
+    list-style: none;
+   
+}
+#nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+#nav-links li:hover{
+    background-color: black;
+    
+}
+#nav-links li:hover a{
+    color: aquamarine; 
+}
